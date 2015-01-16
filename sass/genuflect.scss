@@ -1,15 +1,17 @@
-/* Base stylesheet for custom class prepended genuflect classes. */
+/* Base stylesheet for genuflect. */
 
 /* Do imports */
 @import "compass/reset";
-@import "partials/_mixins";
+@import "partials/mixins";
+@import "partials/utility";
+@import "variables";
 
 /* Set prepend class */
 $genuflect: genuflect;
 
 .#{$genuflect} {
 
-/* PROPERTIES FOR THE PARENT ELEMENT */
+/* PROPERTIES FOR THE PARENT ELEMENT - FLEXBOX*/
 
 	/* Display ----------------------------------------------*/
 	&.flex-container {
@@ -30,7 +32,7 @@ $genuflect: genuflect;
 	}
 
 	&.column {
-		flex-direction: row-column;
+		flex-direction: column;
 	}
 
 	&.column-reverse {
@@ -174,3 +176,18 @@ $genuflect: genuflect;
 
 
 
+/* HEADER AND FOOTER */
+nav {
+	top: 0;
+	height: $nav-height;
+}
+
+footer {
+	bottom: 0;
+	height: $footer-height;
+}
+
+nav, footer {
+	position: fixed;
+	width: 100%;
+}

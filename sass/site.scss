@@ -6,5 +6,20 @@
 
 .child-example {
 	@include center-child (200px,200px);
+}
+
+.blue {
+	background-color: blue;
+}
+.red {
 	background-color: red;
+}
+.green {
+	background-color: green;
+}
+.purple {
+	background-color: purple;
+}
+.yellow {
+	background-color: yellow;
 }
