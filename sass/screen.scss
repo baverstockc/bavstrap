@@ -15,19 +15,19 @@
 }
 
 /* Direction */
-.direction-row {
+.row {
 	flex-direction: row;
 }
 
-.direction-row-reverse {
+.row-reverse {
 	flex-direction: row-reverse;
 }
 
-.direction-column {
+.column {
 	flex-direction: row-column;
 }
 
-.direction-column-reverse {
+.column-reverse {
 	flex-direction: column-reverse;
 }
 
@@ -47,14 +47,39 @@
 
 /* Flex Flow Shorthand */
 
-.direction-row-wrap {
+.row-wrap {
 	flex-flex: row wrap;
 }
 
-.direction-row-nowrap {
+.row-nowrap {
 	flex-flex: row nowrap;
 }
 
-.direction-row-wrap-reverse {
+.row-wrap-reverse {
 	flex-flex: row wrap-reverse;
 }
+
+.row-reverse-wrap {
+	flex-flex: row-reverse wrap;
+}
+
+.row-reverse-nowrap {
+	flex-flex: row-reverse nowrap;
+}
+
+.row-reverse-wrap-reverse {
+	flex-flex: row-reverse wrap-reverse;
+}
+
+.column-wrap {
+	flex-flex: column wrap;
+}
+
+.column-nowrap {
+	flex-flex: column nowrap;
+}
+
+.column-wrap-reverse {
+	flex-flex: column wrap-reverse;
+}
+
