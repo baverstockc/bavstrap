@@ -226,3 +226,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .genuflect.align-content-stretch {
   align-content: stretch;
 }
+
+/* line 3, ../sass/site.scss */
+.create-mixin-example {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/* line 7, ../sass/site.scss */
+.child-example {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  background-color: red;
+}

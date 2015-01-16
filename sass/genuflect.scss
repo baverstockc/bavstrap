@@ -2,11 +2,14 @@
 
 /* Do imports */
 @import "compass/reset";
+@import "partials/_mixins";
 
 /* Set prepend class */
 $genuflect: genuflect;
 
 .#{$genuflect} {
+
+/* PROPERTIES FOR THE PARENT ELEMENT */
 
 	/* Display ----------------------------------------------*/
 	&.flex-container {
@@ -167,5 +170,7 @@ $genuflect: genuflect;
 	&.align-content-stretch {
 		align-content: stretch;
 	}
-
 }
+
+
+

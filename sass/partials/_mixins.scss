@@ -1,0 +1,13 @@
+/* Mixins */
+
+@mixin center-child($width, $height) {
+	width: $width;
+	height: $height;
+	margin: auto;
+}
+
+@mixin create-flex-layout($display: flex, $flex-flow: row wrap, $justify-content: space-around) {
+	display: $display;
+	flex-flow: $flex-flow;
+	justify-content: $justify-content;
+}
