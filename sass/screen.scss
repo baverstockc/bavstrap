@@ -1,0 +1,60 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+/* Display */
+.flex-container {
+	display: flex;
+}
+
+.inline-flex-container {
+	display: flex-inline;
+}
+
+/* Direction */
+.direction-row {
+	flex-direction: row;
+}
+
+.direction-row-reverse {
+	flex-direction: row-reverse;
+}
+
+.direction-column {
+	flex-direction: row-column;
+}
+
+.direction-column-reverse {
+	flex-direction: column-reverse;
+}
+
+/* Wrap */
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.nowrap {
+	flex-wrap: nowrap;
+}
+
+.wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+
+/* Flex Flow Shorthand */
+
+.direction-row-wrap {
+	flex-flex: row wrap;
+}
+
+.direction-row-nowrap {
+	flex-flex: row nowrap;
+}
+
+.direction-row-wrap-reverse {
+	flex-flex: row wrap-reverse;
+}
