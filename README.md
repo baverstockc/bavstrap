@@ -1,2 +1,2 @@
 # flexbox-strap
-A simple flexbox framework with the most unimaginative name imaginable.
+A simple flexbox framework with the most unimaginative name imaginable. Written with SASS.
