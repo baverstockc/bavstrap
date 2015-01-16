@@ -73,7 +73,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   /* Wrap ----------------------------------------------*/
   /* Flex Flow Shorthand ----------------------------------------------*/
   /* Justify Content */
-  /* Align content */
+  /* Align items */
+  /* Align Content */
 }
 /* line 12, ../sass/genuflect.scss */
 .genuflect.flex-container {
@@ -180,22 +181,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   justify-content: space-around;
 }
 /* line 125, ../sass/genuflect.scss */
-.genuflect.align-start {
+.genuflect.align-items-start {
   align-items: flex-start;
 }
 /* line 129, ../sass/genuflect.scss */
-.genuflect.align-end {
+.genuflect.align-items-end {
   align-items: flex-end;
 }
 /* line 133, ../sass/genuflect.scss */
-.genuflect.align-center {
+.genuflect.align-items-center {
   align-items: center;
 }
 /* line 137, ../sass/genuflect.scss */
-.genuflect.align-baseline {
+.genuflect.align-items-baseline {
   align-items: baseline;
 }
 /* line 141, ../sass/genuflect.scss */
-.genuflect.align-stretch {
+.genuflect.align-items-stretch {
   align-items: stretch;
+}
+/* line 147, ../sass/genuflect.scss */
+.genuflect.align-content-start {
+  align-content: flex-start;
+}
+/* line 151, ../sass/genuflect.scss */
+.genuflect.align-content-end {
+  align-content: flex-end;
+}
+/* line 155, ../sass/genuflect.scss */
+.genuflect.align-content-center {
+  align-content: center;
+}
+/* line 159, ../sass/genuflect.scss */
+.genuflect.align-content-space-between {
+  align-content: space-between;
+}
+/* line 163, ../sass/genuflect.scss */
+.genuflect.align-content-space-around {
+  align-content: space-around;
+}
+/* line 167, ../sass/genuflect.scss */
+.genuflect.align-content-stretch {
+  align-content: stretch;
 }

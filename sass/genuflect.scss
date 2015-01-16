@@ -120,28 +120,52 @@ $genuflect: genuflect;
 	}
 
 
-	/* Align content */
+	/* Align items */
 
-	&.align-start {
+	&.align-items-start {
 		align-items: flex-start;
 	}
 
-	&.align-end {
+	&.align-items-end {
 		align-items: flex-end;
 	}
 
-	&.align-center {
+	&.align-items-center {
 		align-items: center;
 	}
 
-	&.align-baseline {
+	&.align-items-baseline {
 		align-items: baseline;
 	}
 
-	&.align-stretch {
+	&.align-items-stretch {
 		align-items: stretch;
 	}
 
+	/* Align Content */
 
+	&.align-content-start {
+		align-content: flex-start;
+	}
+
+	&.align-content-end {
+		align-content: flex-end;
+	}
+
+	&.align-content-center {
+		align-content: center;
+	}
+
+	&.align-content-space-between {
+		align-content: space-between;
+	}
+
+	&.align-content-space-around {
+		align-content: space-around;
+	}
+
+	&.align-content-stretch {
+		align-content: stretch;
+	}
 
 }
