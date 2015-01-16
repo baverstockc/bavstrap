@@ -1,10 +1,10 @@
 @import "genuflect";
 
-.create-mixin-example {
+.create-flexbox-example {
 	@include create-flex-layout();
 }
 
 .child-example {
-	@include center-child (100px,100px);
+	@include center-child (200px,200px);
 	background-color: red;
 }

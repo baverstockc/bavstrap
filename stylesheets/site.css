@@ -236,8 +236,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 7, ../sass/site.scss */
 .child-example {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   margin: auto;
   background-color: red;
 }
